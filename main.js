@@ -75,9 +75,9 @@ function createBullet(num) {
     let theBullet = document.createElement("Span");
 
     // Check if it first Span
-    // if (i === 0) {
-    //   theBullet.className = "on";
-    // }
+     if (i === 0) {
+       theBullet.className = "on";
+     }
     // Append Bullets To Main Bullet Container
     bulletsSpanContainer.appendChild(theBullet);
   }
